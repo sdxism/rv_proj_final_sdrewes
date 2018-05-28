@@ -74,7 +74,7 @@ rv_proj_final_sdrewes
 
 
 **For adding visits:**
-* The city and state must exist
+* The city and state must exist in the database
 * State name must have the first letter capitalized
     ``` 
     {
