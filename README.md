@@ -49,10 +49,7 @@ rv_proj_final_sdrewes
     8a. ```deactivate()```
 
 ## Database Schema
-### State
-| Column Name | Data Type | Primary Key | Foreign Key | Unique  | Nullable |
-| :-------------: |:-------------: | :-------------: | :-----: | :-----:| :-----:|
-| StateID | Integer | Yes | Yes | Yes | No |
+![alt text](https://github.com/sdxism/rv_proj_final_sdrewes/blob/master/schema.png)
 
 
 ## API Endpoints
