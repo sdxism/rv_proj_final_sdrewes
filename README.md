@@ -37,5 +37,11 @@ rv_proj_final_sdrewes
     5a. ```pip3 install sqlite3```
     
 6. Install *flask* package
+
+    6a. ```pip3 install flask```
+    
+7. Run the application
+
+    7a. ```python3 run.py```
     
     6a. ```pip3 install flask```
