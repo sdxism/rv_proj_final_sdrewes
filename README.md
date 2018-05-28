@@ -67,9 +67,13 @@ rv_proj_final_sdrewes
 | ```/state/<state>/cities```      | GET | /state/al/cities      | 400 |   Error message |
 
 ### User Endpoints
+** For users that do not exist... **
+* An empty list of cities or states will be returned on get request
+* A 200 response will be returned on post request
+* A 200 response will be returned on delete request
 | URI      | Request | Example           | Response | Result  |
 | :-------------: |:-------------: | :-------------: | :-----: | :-----:|
 | ```/user/<user>/visits```     | GET | /user/1/visits      | 200 |   List of city json objects |
-| ```/user/<user>/visits```      | POST | /user/1/visits      | 200  | List of city json objects |
+| ```/user/<user>/visits```      | POST | /user/1/visits      | 200  | None |
 | ```/user/<user>/visits/states```     | GET | /user/1/visits/states      | 200 |   List of state json objects |
 | ```/user/<user>/visit/<visit>```     | DELETE | /user/1/visit/1      | 200 |   None |
