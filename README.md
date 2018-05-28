@@ -74,6 +74,7 @@ rv_proj_final_sdrewes
 
 
 **For adding visits:**
+* The object being sent must be Json
 * The city and state must exist in the database
 * State name must have the first letter capitalized
     ``` 
