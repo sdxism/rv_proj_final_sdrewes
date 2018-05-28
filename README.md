@@ -67,14 +67,28 @@ rv_proj_final_sdrewes
 | ```/state/<state>/cities```      | GET | /state/al/cities      | 400 |   Error message |
 
 ### User Endpoints
-**For users that do not exist...**
+**For users that do not exist:**
 * An empty list of cities or states will be returned on get request
 * A 200 response will be returned on post request
 * A 200 response will be returned on delete request
 
 
-**For adding visits...**
+**For adding visits:**
 * The city and state must exist
+* State name must have the first letter capitalized
+    ``` 
+    {
+      "city":"Detroit",
+      "state":"Michigan"
+    }
+    ```
+* Stave abbreviations must be capitalized
+    ```
+    {
+      "city":"Detroit",
+      "state":"MI"
+    }
+    ```
 
 | URI      | Request | Example           | Response | Result  |
 | :-------------: |:-------------: | :-------------: | :-----: | :-----:|
