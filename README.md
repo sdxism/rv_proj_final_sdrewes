@@ -73,6 +73,9 @@ rv_proj_final_sdrewes
 * A 200 response will be returned on delete request
 
 
+**For adding visits...**
+* The city and state must exist
+
 | URI      | Request | Example           | Response | Result  |
 | :-------------: |:-------------: | :-------------: | :-----: | :-----:|
 | ```/user/<user>/visits```     | GET | /user/1/visits      | 200 |   List of city json objects |
