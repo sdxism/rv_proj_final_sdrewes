@@ -44,4 +44,20 @@ rv_proj_final_sdrewes
 
     7a. ```python3 run.py```
     
-    6a. ```pip3 install flask```
+8. Exit virtual environment
+
+    8a. ```deactivate()```
+
+## API Endpoints
+
+### Base URL
+```http://127.0.0.1:5000```
+
+### State Endpoints
+| URI      | Example           | Result  |
+| :-------------: | :-------------: |:-----:|
+| ```/state/<state>/cities```     | /state/Alabama/cities      |   List of city json objects |
+| ```/state/<state>/cities```      | /state/AL/cities      |   List of city json objects |
+| ```/state/<state>/cities```      | /state/feafe14/cities      |   400 error |
+
+### User Endpoints
