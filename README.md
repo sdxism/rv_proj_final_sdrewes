@@ -79,3 +79,7 @@ rv_proj_final_sdrewes
 | ```/user/<user>/visits```      | POST | /user/1/visits      | 200  | None |
 | ```/user/<user>/visits/states```     | GET | /user/1/visits/states      | 200 |   List of state json objects |
 | ```/user/<user>/visit/<visit>```     | DELETE | /user/1/visit/1      | 200 |   None |
+
+
+### All Other Endpoints
+Anything not listed above will 404
