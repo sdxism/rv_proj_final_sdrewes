@@ -54,11 +54,17 @@ rv_proj_final_sdrewes
 ```http://127.0.0.1:5000```
 
 ### State Endpoints
+**State names** must have the first letter capitalized
+
+**State abbreviations** must be capitialized
+
 | URI      | Request | Example           | Response | Result  |
 | :-------------: |:-------------: | :-------------: | :-----: | :-----:|
 | ```/state/<state>/cities```     | GET | /state/Alabama/cities      | 200 |   List of city json objects |
 | ```/state/<state>/cities```      | GET |/state/AL/cities      | 200  |List of city json objects |
 | ```/state/<state>/cities```      | GET | /state/feafe14/cities      | 400 |   Error message |
+| ```/state/<state>/cities```      | GET | /state/alabama/cities      | 400 |   Error message |
+| ```/state/<state>/cities```      | GET | /state/al/cities      | 400 |   Error message |
 
 ### User Endpoints
 | URI      | Request | Example           | Response | Result  |
