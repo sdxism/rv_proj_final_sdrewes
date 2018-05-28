@@ -72,4 +72,4 @@ rv_proj_final_sdrewes
 | ```/user/<user>/visits```     | GET | /user/1/visits      | 200 |   List of city json objects |
 | ```/user/<user>/visits```      | POST | /user/1/visits      | 200  | List of city json objects |
 | ```/user/<user>/visits/states```     | GET | /user/1/visits/states      | 200 |   List of state json objects |
-| ```/user/<user>/visit/<visit>```     | GET | /user/1/visit/1      | 200 |   None |
+| ```/user/<user>/visit/<visit>```     | DELETE | /user/1/visit/1      | 200 |   None |
