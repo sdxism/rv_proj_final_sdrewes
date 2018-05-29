@@ -39,7 +39,7 @@ rv_proj_final_sdrewes
 
 4. Start the virtual environment
 
-    4a. ```./venv/bin/activate```
+    4a. ```source ./venv/bin/activate```
     
 5. Install the *sqlite3* package
     
