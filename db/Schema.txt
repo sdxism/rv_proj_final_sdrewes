@@ -1,0 +1,16 @@
+Schema
+
+Table: City
+Name StateID Status Long Lat DateAdded DateTimeAdded LastUpdated CityID
+
+
+Table: State
+Name Abbreviation DateAdded DateTimeAdded LastUpdated StateID
+
+
+Table: User
+FirstName LastName DateAdded DateTimeAdded LastUpdated UserID
+
+
+Table: Visit
+VisitID UserID CityID StateID
