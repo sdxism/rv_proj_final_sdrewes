@@ -58,7 +58,7 @@ rv_proj_final_sdrewes
     8a. ```deactivate()```
 
 ## Database Schema
-![alt text](https://github.com/sdxism/rv_proj_final_sdrewes/blob/master/schema2.png)
+![alt text](https://github.com/sdxism/rv_proj_final_sdrewes/blob/master/Untitled%20Diagram.png)
 
 
 ## API Endpoints
