@@ -5,7 +5,7 @@ The following is a simple API service that fulfills the following request:
 
 >A new client wants to build a small API to allow users to pin areas they've visited and potentially share them with other users.
 
-Due to the short time period, my goal here was simplicity, so third party frameworks were kept to a minimum. Python, Flask, and Sqlite were all chosen because they have little dependencies and should be able to compile and run just about anywhere.
+Due to the short time period, my goal here was simplicity. Python, Flask, and Sqlite were all chosen because they have little dependencies and should be able to compile and run just about anywhere.
 
 The program is straightforward: the API interprets a request, the information is retrieved from the database, and the information is returned as a JSON object. 
 
