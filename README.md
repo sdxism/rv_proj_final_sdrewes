@@ -55,7 +55,7 @@ rv_proj_final_sdrewes
     
 8. Exit virtual environment
 
-    8a. ```deactivate()```
+    8a. ```deactivate```
 
 ## Database Schema
 ![alt text](https://github.com/sdxism/rv_proj_final_sdrewes/blob/master/Untitled%20Diagram.png)
