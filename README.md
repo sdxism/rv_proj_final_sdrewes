@@ -81,7 +81,7 @@ rv_proj_final_sdrewes
 * The object being sent must be Json
 * The city and state must exist in the database
 * The city name just be as it appears in the datbase
-* State name must have the first letter capitalized
+* State name must be as it appears in the database
     ``` 
     {
       "city":"Detroit",
